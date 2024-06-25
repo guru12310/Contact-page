@@ -1,0 +1,140 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(148, 38%, 91%);
+  }
+  *{
+    font-size: 16px;
+    font-family: karla;
+    color: gray;
+  }
+  .container{
+    display: flex;
+    flex-direction:column;
+    height: 31rem;
+    width: 29rem;
+    background-color: white;
+    gap: 0.6rem;
+    justify-content: center;
+    padding-left:2rem ;
+    border-radius: 0.8rem;
+
+  }
+  .header{
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  .names{
+    display: flex;
+    gap: 10rem;
+  }
+  .names-box{
+    display: flex;
+    gap: 0.5rem;
+  }
+  #fname {
+    height: 2rem;
+    width: 12.8rem;
+  }
+  #email{
+    height: 2rem;
+    width: 26.5rem;
+  }
+  #lname{
+    width: 12.8rem;
+  }
+  #query{
+    height: 2rem;
+    width: 12.8rem;
+    text-align: center;
+  }
+  #msg{
+    height: 3rem;
+    width: 26.5rem;
+  }
+  #team{
+    margin-top: 1rem;
+    margin-left: -28.89rem;
+  }
+  .tick{
+    margin-top:-1.8rem;
+    margin-left: 2rem;
+  }
+  #submit{
+    width: 27rem;
+    height: 2rem;
+    background-color: hsl(169, 82%, 27%);
+    color: white;
+    border-radius: 0.3rem ;
+  }
+  input{
+    border-radius: 0.4rem;
+    border-color: rgb(180, 180, 180);
+  }
+  input:hover{
+    border-color: hsl(169, 82%, 27%);
+  }
+  #submit:hover{
+    background-color: hsl(187, 24%, 22%);
+  }
+
+  @media only screen and (max-width:600px){
+
+    .container{
+      height: 45rem;
+      width: 20rem;
+      display: flex;
+      flex-direction: column;
+    }
+    .names-box{
+      display: flex;
+      flex-direction: column;
+      height: 5rem;
+
+    }
+    .names{
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+      justify-content: center;
+
+        }
+    #submit{
+      width: 17rem;
+    }
+    #fname{
+      width: 17rem;
+      height: 3rem;
+   
+    }
+    #lname{
+      width: 17rem;
+      height: 3rem;
+    }
+    #email{
+      width: 17rem;
+    }
+    #query{
+      height: 3rem;
+      width: 17rem;
+      text-align: center;
+    }
+    #msg{
+      height: 3rem;
+      width: 18rem;
+    }
+    #msg{
+      width: 17rem;
+      height: 10rem;
+    }
+    #arrange{
+      color: green;
+    }
+    #team{
+      margin-left: -17.5rem;
+    }
+  }
